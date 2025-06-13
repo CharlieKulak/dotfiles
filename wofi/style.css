@@ -1,27 +1,45 @@
 window {
-    background-color: rgba(20, 20, 20, 0.5); /* dark translucent background */
-    color: #ffffff;
-    border-radius: 12px;       /* Rounded corners for whole window */
-    padding: 10px;
-}
-
-
-#entry {
-    background-color: transparent;
-    color: #ffffff;
-}
-
-#entry:selected {
-    background-color: #6d9474; /* highlight color */
-    color: #ffffff;
+margin: 0px;
+border: 1px solid #928374;
+background-color: #282828;
 }
 
 #input {
-    background-color: #6d9474;   /* Search bar background */
-    color: #c9ffd2;              /* Search bar text color */
-    border: none;
-    padding: 6px;
-    margin: 6px;
-    border-radius: 6px;
+margin: 5px;
+border: none;
+color: #ebdbb2;
+background-color: #1d2021;
+}
+
+#inner-box {
+margin: 5px;
+border: none;
+background-color: #282828;
+}
+
+#outer-box {
+margin: 5px;
+border: none;
+background-color: #282828;
+}
+
+#scroll {
+margin: 0px;
+border: none;
+}
+
+#text {
+margin: 5px;
+border: none;
+color: #ebdbb2;
+}
+
+#entry:selected {
+background-color: #1d2021;
+}
+
+{
+    font-family: "Code New Roman Propo", sans-serif;
+    font-weight: bold;
 }
 
